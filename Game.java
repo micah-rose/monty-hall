@@ -1,5 +1,4 @@
-/**********************
- * Author: Micah L
+* Author: Micah L
  * A09 - Final Project
  * Course: CSIS 1410
  **********************/
