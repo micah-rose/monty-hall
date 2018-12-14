@@ -92,8 +92,6 @@ function doorOne(){
     rand = Math.floor(Math.random() * 6);
     clicks++;
 
-    if(clicks < 2 ){
-
         switch(rand){
             case 0: document.getElementById("door-image").src = images[0]; break;
             case 1: document.getElementById("door-image").src = images[1]; break;
@@ -122,7 +120,6 @@ function doorOne(){
             case 4: document.getElementById("win-lose").innerText = "EW, gross!!"; break;
             case 5: document.getElementById("win-lose").innerText = "AHHHHHH!!"; break;
         }
-    } 
 }
 
 function doorTwo(){
