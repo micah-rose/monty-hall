@@ -5,7 +5,7 @@
     <link type="text/css" rel="stylesheet" href="/css/monty-hall.css" />
     <script src="/js/monty-hall.js"></script>
   </head>
-  <body>
+  <body onload="restartGame();">
     <div class="top-bar"><h4>Monty Hall: Pick Your Prize</h4></div>
     <div class="middle-space">
       <div class="door-1">
@@ -22,7 +22,10 @@
       </div>
     </div>
     <div class="bottom-bar">
-      <button onclick="" type="button">Start Game</button>
+      <button onclick="startGame();" id="start-game" type="button">Start Game</button>
+      <button onclick="playAgain();" id="play-again" type="button">Play Again?</button>
+      <button onclick="keepPrize();" id="keep-prize" type="button">Keep Prize</button>
+      <p id="win-lose">Do you think fate is on your side? Let's play!!</p>
     </div>
   </body>
 </html>
