@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 570px;
+  display: block;
+  margin: auto;
+  width: 70%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: solid 5px gray;
+}
+
+.top-bar {
+  text-align: center;
+  color: goldenrod;
+  background-color: lightgray;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.bottom-bar {
+  clear: both;
+  text-align: center;
+  background-color: lightgray;
+  padding: 15px;
+}
+
+.middle-space {
+  overflow: hidden;
+  width: 93%;
+  margin: auto;
+}
+
+.middle-space p {
+  margin-top: -10px;
+}
+
+[class^="door-"] {
+  margin: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+img {
+  width: 175px;
+  height: 400px;
+  margin: 20px;
+}
+
+.door-1 {
+  float: left;
+}
+
+.door-2 {
+  float: left;
+}
+
+.door-3 {
+  float: left;
+}
+
+button {
+  background-color: whitesmoke;
+  font-size: 20px;
+  padding: 5px 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 15%;
+}
