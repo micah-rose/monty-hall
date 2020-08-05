@@ -2,12 +2,12 @@
 //Maybe prevent only 2 clicks?
 
 var images = [
-    "/img/money.png", 
-    "/img/billyg.png", 
-    "/img/laundry.png", 
-    "/img/poop.png", 
-    "/img/rotten-egg.png", 
-    "/img/zombie.png"
+    "img/money.png", 
+    "img/billyg.png", 
+    "img/laundry.png", 
+    "img/poop.png", 
+    "img/rotten-egg.png", 
+    "img/zombie.png"
 ];
 var rand;
 var clicks = 0;
@@ -32,9 +32,9 @@ function restartGame() {
     document.getElementById("start-game").style.display = "block";
 
     //Sets images back to a shut door
-    document.getElementById("door-image").src = "/img/doorShut.jpg";
-    document.getElementById("door-image2").src = "/img/doorShut.jpg";
-    document.getElementById("door-image3").src = "/img/doorShut.jpg";
+    document.getElementById("door-image").src = "img/doorShut.jpg";
+    document.getElementById("door-image2").src = "img/doorShut.jpg";
+    document.getElementById("door-image3").src = "img/doorShut.jpg";
 
     //Removes functionality from doors
     document.getElementById("door-image").onclick = "";
@@ -66,9 +66,9 @@ function playAgain(){
         document.getElementById("start-game").style.display = "none";
     
         //Sets images back to a shut door
-        document.getElementById("door-image").src = "/img/doorShut.jpg";
-        document.getElementById("door-image2").src = "/img/doorShut.jpg";
-        document.getElementById("door-image3").src = "/img/doorShut.jpg";
+        document.getElementById("door-image").src = "img/doorShut.jpg";
+        document.getElementById("door-image2").src = "img/doorShut.jpg";
+        document.getElementById("door-image3").src = "img/doorShut.jpg";
 
         //Adds functions back to doors
         document.getElementById("door-image").onclick = doorOne;
